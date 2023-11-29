@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 2);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.user-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+#form-login {
+  margin-top: 100px;
+  margin-bottom: 340px;
+}
+#form-login h1 {
+  margin-bottom: 40px;
+}
+#form-login #form-group-login {
+  margin-bottom: 32px;
+}
+
+#form-create,
+#edit-course {
+  margin-bottom: 300px;
+}
+
+#btn-edit_delete {
+  padding: 4px 0 4px 52px;
+}
+
+#delete-course-modal {
+  margin-bottom: 300px;
+}
+
+#my-course {
+  margin-bottom: 500px;
+}
+
+#btn-edit_delete {
+  margin-left: auto;
+}
+
+#user-id {
+  color: #ffffff !important;
+  font-size: 20px;
+}
+#user-id:hover {
+  opacity: 0.7;
+}
+
+#box-content {
+  margin-top: 80px !important;
+}
+
+#logo {
+  display: flex;
+}
+#logo img {
+  margin: auto 0;
+  display: block;
+  height: 55px;
+  width: 55px;
+}
+
+#course-item {
+  padding-bottom: 40px !important;
+}
+
+#title {
+  --line-clamp: 1;
+}
+
+#desc {
+  --line-clamp: 3;
+}
+
+.detail-course {
+  line-height: 1.6;
+  margin-top: 35px;
+}
+.detail-course h2 {
+  width: 100%;
+  font-size: 42px;
+  margin-bottom: 24px;
+}
+.detail-course p {
+  margin-top: 24px;
+  width: 100%;
+  font-size: 24px;
+}
+
+#footer {
+  margin-top: 80px;
+}
+#footer #footer-bottom {
+  padding: 4px 0;
+  margin: 0;
+}
+#footer #footer-bottom #footer-bottom-text {
+  opacity: 0.5;
+  margin: 0;
+  font-size: 12px;
+}
+#footer h5,
+#footer p {
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=app.css.map */
